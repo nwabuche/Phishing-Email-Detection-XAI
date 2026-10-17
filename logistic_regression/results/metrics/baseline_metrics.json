@@ -1,0 +1,34 @@
+
+{
+  "model": "Logistic Regression",
+  "experiment": "Official Baseline",
+  "dataset": "Phishing Email Dataset (Nazario_5 and TREC07)",
+  "evaluation": {
+    "test_samples": 10716,
+    "class_labels": {
+      "0": "Legitimate",
+      "1": "Phishing"
+    },
+    "accuracy": 0.9873086972751026,
+    "precision": 0.9853528628495339,
+    "recall": 0.9919571045576407,
+    "f1_score": 0.9886439545758183,
+    "roc_auc": 0.9987668012042886,
+    "confusion_matrix": [
+      [4660, 88],
+      [48, 5920]
+    ],
+    "true_negatives": 4660,
+    "false_positives": 88,
+    "false_negatives": 48,
+    "true_positives": 5920
+  },
+  "feature_extraction": {
+    "method": "TF-IDF",
+    "max_features": 10000,
+    "ngram_range": [1, 2],
+    "min_df": 2,
+    "max_df": 0.95,
+    "stop_words": "english"
+  }
+}
