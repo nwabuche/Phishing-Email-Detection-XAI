@@ -1,0 +1,12 @@
+
+Metric,Baseline Result
+Accuracy,0.9873086972751026
+Precision,0.9853528628495339
+Recall,0.9919571045576407
+F1-score,0.9886439545758183
+ROC-AUC,0.9987668012042886
+True Negatives,4660
+False Positives,88
+False Negatives,48
+True Positives,5920
+Total Test Samples,10716
