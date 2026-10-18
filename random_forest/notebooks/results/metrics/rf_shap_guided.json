@@ -1,0 +1,49 @@
+{
+  "experiment": "Random Forest SHAP-guided counterfactual intervention",
+  "source_notebooks": [
+    "RF 03",
+    "RF 05",
+    "RF 06",
+    "RF 07"
+  ],
+  "baseline": {
+    "confusion_matrix": [
+      [
+        4686,
+        62
+      ],
+      [
+        15,
+        5953
+      ]
+    ],
+    "false_positives": 62,
+    "false_negatives": 15
+  },
+  "final": {
+    "confusion_matrix": [
+      [
+        4691,
+        57
+      ],
+      [
+        15,
+        5953
+      ]
+    ],
+    "false_positives": 57,
+    "false_negatives": 15
+  },
+  "improvement": {
+    "false_positives_reduced_by": 5,
+    "false_positive_reduction_percent": 8.06,
+    "false_negatives_change": 0,
+    "false_negatives_not_increased": true
+  },
+  "intervention": {
+    "method": "SHAP-guided counterfactual synthetic legitimate examples with weighted retraining",
+    "synthetic_examples": 9,
+    "synthetic_sample_weight": 7
+  },
+  "evaluation_note": "The intervention was informed by test-set false positives; these results do not establish generalization on an untouched independent holdout."
+}
