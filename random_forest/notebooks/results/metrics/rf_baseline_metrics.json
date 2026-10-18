@@ -1,0 +1,29 @@
+{
+  "model": "Random Forest",
+  "experiment": "Baseline",
+  "dataset": "Phishing Email Dataset (Nazario_5 and TREC07)",
+  "random_state": 42,
+  "training_samples": 42861,
+  "test_samples": 10716,
+  "accuracy": 0.99281448,
+  "precision": 0.98969244,
+  "recall": 0.9974866,
+  "f1_score": 0.99357423,
+  "roc_auc": 0.99911353,
+  "confusion_matrix": [
+    [
+      4686,
+      62
+    ],
+    [
+      15,
+      5953
+    ]
+  ],
+  "confusion_matrix_label_order": [
+    "legitimate (0)",
+    "phishing (1)"
+  ],
+  "false_positives": 62,
+  "false_negatives": 15
+}
