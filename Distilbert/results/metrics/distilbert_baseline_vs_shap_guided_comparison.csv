@@ -1,0 +1,11 @@
+Metric,Baseline DistilBERT,SHAP-Guided Final DistilBERT
+Accuracy,0.995054,0.995987
+Precision,0.994813,0.995650
+Recall,0.996314,0.997151
+F1-score,0.995563,0.996400
+ROC-AUC,0.999262,0.999384
+True Positives,4717,4722
+False Positives,31,26
+False Negatives,22,17
+True Negatives,5946,5951
+Total Classification Errors,53,43
